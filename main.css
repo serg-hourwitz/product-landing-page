@@ -123,7 +123,7 @@ span {
     padding-top: 50px;
     color: var(--yellow);
 }
-@media (min-width: 320px) {
+@media (max-width: 320px) {
 .burger-icon {
     display: block;
     margin-top: 0px;
@@ -140,7 +140,7 @@ span {
     flex-direction: column;
 }
 .ftu-contacts {
-    padding-left: 85px;
+    padding-left: 45px;
 }
 #about,
 #events,
