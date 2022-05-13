@@ -47,6 +47,7 @@ body {
 .video {
     display: flex;
     justify-content: center;
+    border: none;
 }
 .video iframe {
     display: block;
@@ -122,7 +123,7 @@ span {
     padding-top: 50px;
     color: var(--yellow);
 }
-@media (max-width: 320px) {
+@media (min-width: 320px) {
 .burger-icon {
     display: block;
     margin-top: 0px;
